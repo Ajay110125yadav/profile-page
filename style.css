@@ -1,0 +1,104 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+Header {
+  background-color: #4CAF50;
+  color: White;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a  {
+  color: white;
+  text-decoration: none;
+  margin: 0 130px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+
+}
+
+.about-container img {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid black;
+
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+}
+
+.skill {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold; 
+}
+
+.project {
+  background-color: #eee;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
